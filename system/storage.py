@@ -6,7 +6,9 @@
 from django.core.files.storage import FileSystemStorage
 from django.http import HttpResponse
 from django.conf import settings
-import os, time, random
+import os
+import time
+import random
 
 
 class ImageStorage(FileSystemStorage):
