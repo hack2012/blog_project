@@ -1,0 +1,32 @@
+{% load staticfiles %}
+<div class="banner">
+    <div id="slide-holder">
+        <div id="slide-runner">
+            {% for ads in ads_list %}
+                <a href="{{ ads.callback_url }}" target="_blank">
+                    <img id="{{ ads.id }}" src='uploads/{{ ads.image_url }}' width="670" height="280" alt=""/>
+                </a>
+            {% endfor %}
+            <div id="slide-controls">
+                <p id="slide-client" class="text"><strong></strong><span></span></p>
+                <p id="slide-desc" class="text"></p>
+                <p id="slide-nav"></p>
+            </div>
+        </div>
+    </div>
+    <script>
+        if (!window.slider) {
+            var slider = {};
+        }
+        slider.data = [
+            {% for ads in ads_list %}
+                {
+                    "id": "{{ ads.id }}", // 与slide-runner中的img标签id对应
+                    "client": "{{ ads.title }}",
+                    "desc": "{{ ads.description }}" //这里修改描述
+                },
+            {% endfor %}
+        ];
+
+    </script>
+</div>

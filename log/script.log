@@ -1,0 +1,10 @@
+2018-02-24 14:36:11,976 [Thread-10:1256] [django.request:182] [base:get_response] [WARNING]- Not Found: /ad/2018/02/20180224142719_74.jpg
+2018-02-24 14:36:12,000 [Thread-11:3984] [django.request:182] [base:get_response] [WARNING]- Not Found: /ad/2018/02/20180224142837_76.jpg
+2018-02-24 14:49:24,322 [Thread-151:13016] [django.request:182] [base:get_response] [WARNING]- Not Found: /uploads/
+2018-02-24 14:49:26,642 [Thread-157:2408] [django.request:182] [base:get_response] [WARNING]- Not Found: /uploads/
+2018-02-24 14:49:30,401 [Thread-163:12928] [django.request:182] [base:get_response] [WARNING]- Not Found: /uploads/
+2018-02-24 14:49:31,607 [Thread-169:5856] [django.request:182] [base:get_response] [WARNING]- Not Found: /uploads/
+2018-02-24 17:24:30,243 [Thread-35:8812] [django.request:182] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2018-02-24 17:24:30,257 [Thread-38:6068] [django.request:182] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2018-02-26 10:27:10,405 [Thread-13:9672] [django.request:182] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2018-02-26 15:44:49,487 [Thread-177:7436] [django.request:182] [base:get_response] [WARNING]- Not Found: /favicon.ico

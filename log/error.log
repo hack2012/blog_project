@@ -1,0 +1,9 @@
+2018-02-24 15:39:13,750 [Thread-2:13512] [blog.views:255] [views:tags] [ERROR]- 'decimal' codec can't encode characters in position 0-1: invalid decimal Unicode string
+2018-02-24 15:39:20,131 [Thread-10:6652] [blog.views:255] [views:tags] [ERROR]- 'decimal' codec can't encode characters in position 0-1: invalid decimal Unicode string
+2018-02-24 15:40:19,012 [Thread-2:6196] [blog.views:255] [views:tags] [ERROR]- Cannot resolve keyword 'tags' into field. Choices are: category, category_id, click_count, comment, content, date_publish, desc, id, is_recommend, tag, title, user, user_id
+2018-02-24 15:40:37,915 [Thread-2:668] [blog.views:255] [views:tags] [ERROR]- Cannot resolve keyword u'\u6d4b' into field. Choices are: article, id, name
+2018-02-24 15:41:36,522 [Thread-2:10268] [blog.views:255] [views:tags] [ERROR]- get() returned more than one Tag -- it returned 4!
+2018-02-24 15:41:52,434 [Thread-2:3952] [blog.views:256] [views:tags] [ERROR]- 'decimal' codec can't encode characters in position 0-1: invalid decimal Unicode string
+2018-02-24 15:42:53,348 [Thread-2:11888] [blog.views:256] [views:tags] [ERROR]- 'decimal' codec can't encode characters in position 0-1: invalid decimal Unicode string
+2018-02-24 15:43:22,927 [Thread-2:11036] [blog.views:256] [views:tags] [ERROR]- Cannot resolve keyword 'tags' into field. Choices are: category, category_id, click_count, comment, content, date_publish, desc, id, is_recommend, tag, title, user, user_id
+2018-02-26 15:45:06,170 [Thread-184:7192] [blog.views:200] [views:do_reg] [ERROR]- Reverse for '' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
